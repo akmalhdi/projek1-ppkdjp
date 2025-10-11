@@ -1,3 +1,5 @@
+/* style index */
+
 body {
   margin: 0;
   padding: 0;
@@ -105,7 +107,7 @@ body {
 .card-space {
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 4x 6px #000;
+  box-shadow: 0 4px 6px #000;
   margin-bottom: 0.5rem;
   position: relative;
   height: 279px;
@@ -170,26 +172,55 @@ body {
   font-size: 3rem;
 }
 
-.gallery-section{
+.gallery-section {
   background-color: #000000;
   color: white;
   padding-top: 1.5rem;
 }
 
-.gallery-section h6{
+.gallery-section h6 {
   text-align: start;
 }
 
-.service-card{
+.service-card {
   border-radius: 15px;
   text-align: center;
   margin-bottom: 1rem;
 }
 
-.service-card img{
+.service-card img {
   width: 100%;
   height: 250px;
   object-fit: cover;
+}
+
+.coment-card {
+  background-color: #737373;
+  color: white;
+  border-radius: 15px;
+  text-align: justify;
+  padding: 1.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.coment-card h5 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2rem;
+}
+
+.profil-wrapper {
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+
+.profil-wrapper img {
+  width: 90px;
 }
 
 footer {
@@ -206,7 +237,7 @@ footer a {
 footer ul {
   list-style: none;
   padding: 0;
-  margin:0;
+  margin: 0;
 }
 
 footer h6 {
@@ -228,3 +259,242 @@ footer li:hover {
   text-decoration: underline;
   cursor: pointer;
 }
+
+/* end style index */
+
+/* start style services */
+
+/* start style hero service page */
+.hero-service {
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/1.png");
+  padding: 8rem;
+  margin-top: -10rem;
+}
+
+.hero-service .hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: -0.4rem;
+}
+/* end style hero service */
+
+/* start style promo */
+.promo-card {
+  border: 3px solid rgba(73, 73, 73, 0.5);
+  color: #000;
+  border-radius: 15px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  text-align: left;
+  margin-bottom: 2rem;
+  height: 100%;
+  width: 100%;
+}
+.promo-card .first {
+  border-bottom: 3px solid #737373;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+.promo-card .price-tag {
+  text-align: center;
+  font-size: 2rem;
+  color: #000;
+}
+.promo-card .price-tag .small {
+  font-size: 15px;
+}
+.promo-card .price-tag .big {
+  font-size: 35px;
+}
+.promo-card .gratis {
+  color: blue;
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+.promo-card h5 {
+  font-weight: bold;
+  font-size: 25px;
+}
+.promo-card h6 {
+  font-weight: bold;
+}
+.promo-card button {
+  width: 100%;
+  font-weight: bold;
+  border: 3px solid rgba(73, 73, 73, 0.5);
+  border-radius: 15px;
+}
+.promo-card button.active {
+  background-color: #282828;
+  color: white;
+  border: 3px solid #282828;
+}
+.promo-card button:hover {
+  background-color: #282828;
+  color: white;
+  border: 3px solid #282828;
+}
+/* end style promo */
+
+/* style  virtual office*/
+.card-virtual {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px #000;
+  margin-bottom: 2rem;
+  position: relative;
+  height: 320px;
+}
+.card-virtual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.virtual-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5rem;
+  background-color: rgba(40, 40, 40, 1);
+  color: white;
+  height: 125px;
+}
+.virtual-overlay h5 {
+  padding-top: 1rem;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.virtual-overlay p {
+  font-size: 10px;
+  margin-bottom: 0.5rem;
+  padding: 0 1rem;
+}
+.view-package a {
+  text-decoration: none;
+  color: green;
+}
+.view-package a:hover {
+  color: white;
+  transition: all 0.5s ease-in-out;
+  font-size: 15px;
+}
+/* end style virtual office */
+
+/* style office & meeting */
+.card-office {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px #000;
+  margin-bottom: 2rem;
+  position: relative;
+  height: 320px;
+}
+.card-office img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.office-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5rem;
+  background-color: rgba(40, 40, 40, 1);
+  color: white;
+  height: 125px;
+}
+.office-overlay h5 {
+  padding-top: 1rem;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.office-overlay p {
+  font-size: 10px;
+  margin-bottom: 0.5rem;
+  padding: 0 1rem;
+}
+.view-package a {
+  text-decoration: none;
+  color: green;
+}
+.view-package a:hover {
+  color: white;
+  transition: all 0.5s ease-in-out;
+  font-size: 15px;
+}
+/* end style office & meeting */
+
+/* style booking section */
+.booking-section {
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 1rem;
+  background-image: url("../img/25.png");
+}
+.contact-section {
+  margin: 0;
+  padding: 0;
+  padding-left: 1rem;
+  padding-right: 5rem;
+  margin-top: -1.5rem;
+  width: 25rem;
+}
+.contact-section .title-section {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin: 0;
+}
+.contact-section h6 {
+  font-size: 10px;
+  word-spacing: 4px;
+  font-weight: bold;
+}
+.contact-section p {
+  font-size: 15px;
+  line-height: 15px;
+}
+.contact-section .search-box {
+  background-color: white;
+  border: 1px solid #000;
+  border-radius: 25px;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+}
+.contact-section i {
+  color: green;
+}
+.contact-section .search-box input {
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-left: 10px;
+}
+/* end style booking section */
+/* end style services page*/
+
+
+
+/* start style contact page */
+.hero-contact {
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/23.png);
+  padding: 7rem;
+  margin-bottom: 2rem;
+  margin-top: -2rem;
+}
+.hero-contact .hero-title {
+  color: white;
+  font-weight: bold;
+  font-size: 4rem;
+  text-shadow: 2px 2px 2px gray;
+}
+/* end style contact page */
